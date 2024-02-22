@@ -2,6 +2,7 @@
 int suma(int, int);
 double resta(double, double);
 double multiplicacion(double, double);
+double division(double, double);
 
 int main() {
     char operador;
@@ -36,7 +37,7 @@ int main() {
 int suma(int num1, int num2){
     return num1+num2;
 }
-double resta(doble num1,double num2){
+double resta(double num1,double num2){
     return num1-num2;
 }
 
